@@ -281,7 +281,7 @@ def run():
         ad_user = st.text_input("Username")
         ad_password = st.text_input("Password", type='password')
         if st.button('Login'):
-            if ad_user == 'Jayashree' and ad_password == '12345':
+            if ad_user == 'Boopathi' and ad_password == '12345':
                 # Display Data
                 cursor.execute('''SELECT ID, Name, Email_ID, resume_score, Timestamp, Page_no, Predicted_Field, User_level,Actual_skills FROM user_data''')
                 data = cursor.fetchall()
